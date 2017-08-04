@@ -1,0 +1,117 @@
+@import url(reset.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.24rem;
+  font-weight: normal; }
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem;
+  min-width: 320px; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 1rem;
+  background: #393a3f; }
+  header a {
+    color: #fff;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 1rem; }
+    header a:nth-child(1) {
+      background: url(../images/bg_03.png) no-repeat 90% 50%;
+      background-size: .17rem .55rem; }
+    header a:nth-child(2) {
+      width: 60%;
+      text-align: left; }
+    header a i {
+      font-size: .5rem; }
+
+main {
+  width: 100%;
+  flex: 1;
+  position: relative; }
+
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(9, 9, 9, 0.2); }
+
+.wrap {
+  width: 5.6rem;
+  height: 8rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  border-radius: .2rem; }
+  .wrap p {
+    width: 100%;
+    text-align: center;
+    color: #494c53;
+    font-size: .3rem;
+    margin-top: .2rem; }
+
+.head {
+  width: 2.69rem;
+  height: .88rem;
+  margin: 0 auto;
+  margin-top: .5rem; }
+  .head img {
+    width: 100%;
+    height: 100%; }
+
+.uls {
+  width: 100%;
+  margin-top: .5rem; }
+  .uls li {
+    width: 80%;
+    height: 1rem;
+    margin: 0 auto; }
+    .uls li:nth-child(1) input {
+      background: url(../imgs/icon_01.png) no-repeat 0.3rem 50%;
+      background-size: .28rem .43rem; }
+    .uls li:nth-child(2) input {
+      background: url(../imgs/icon_03.png) no-repeat 0.3rem 50%;
+      background-size: .3rem .34rem; }
+    .uls li:nth-child(3) {
+      line-height: 1rem;
+      margin-top: .7rem; }
+  .uls input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: .8rem;
+    border-bottom: 1px solid #999; }
+  .uls button {
+    width: 100%;
+    height: .7rem;
+    background: #2fbb74;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .1rem; }
+
+/*# sourceMappingURL=style.css.map */
