@@ -1,0 +1,189 @@
+@import url(reset.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0.32rem;
+  font-weight: normal; }
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem;
+  min-width: 320px;
+  background: #f3f3f3; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative; }
+  header a {
+    color: #737373;
+    width: 20%;
+    height: 100%;
+    line-height: 1rem;
+    display: inline-block;
+    text-align: center;
+    float: left; }
+    header a:first-child {
+      margin-left: 30%;
+      color: #fc062e; }
+  header .all {
+    position: absolute;
+    color: #778292;
+    right: 5%;
+    top: 30%;
+    font-size: .14rem; }
+  header .height {
+    width: 20%;
+    height: 2px;
+    background: #fc062e;
+    position: absolute;
+    bottom: -1px;
+    left: 30%; }
+
+nav {
+  width: 90%;
+  height: .7rem;
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  border-radius: .1rem;
+  margin: .15rem auto;
+  display: flex;
+  overflow: hidden; }
+  nav a {
+    border-right: 1px solid #d2d2d2;
+    text-align: center;
+    line-height: .7rem;
+    font-size: .28rem;
+    flex: 1;
+    color: #3f3f4d; }
+    nav a:last-child {
+      border: none; }
+    nav a:first-child {
+      color: #fff;
+      background: #fe4d4d; }
+
+footer {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-top: 1px solid #e5e5e5; }
+  footer a {
+    color: #343434;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: .28rem; }
+    footer a.active {
+      color: #fa3d3d; }
+      footer a.active i {
+        color: #fa3d3d; }
+    footer a i {
+      font-size: .4rem;
+      display: block;
+      color: #d0d0d4;
+      margin-top: .1rem; }
+
+main {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  background: #fff; }
+
+.uls {
+  width: 100%;
+  height: 1rem;
+  background: #fff; }
+  .uls li {
+    width: 25%;
+    height: 100%;
+    line-height: 1rem;
+    float: left;
+    text-align: center;
+    font-size: .28rem;
+    background: url(../images/list_03.jpg) no-repeat 100% 50%;
+    background-size: .2rem .55rem; }
+    .uls li:first-child {
+      color: #fe4d4d; }
+    .uls li:nth-child(3) {
+      background: none; }
+    .uls li:last-child {
+      background: none;
+      border-left: 1px solid #eee; }
+      .uls li:last-child i {
+        font-size: .5rem;
+        font-weight: bold;
+        color: #707070; }
+
+section {
+  width: 100%;
+  margin-bottom: .3rem;
+  height: 2.4rem;
+  background: url(../images/bg_06.jpg) no-repeat 0 0;
+  background-size: 1.48rem  1.44rem;
+  position: relative;
+  border-top: 1px solid #eee; }
+  section:nth-of-type(3) {
+    background: url(../images/bg_09.jpg) no-repeat 0 0;
+    background-size: 1.48rem  1.44rem; }
+  section:nth-of-type(4) {
+    background: url(../images/bg_09.jpg) no-repeat 0 0;
+    background-size: 1.48rem  1.44rem; }
+  section b {
+    position: absolute;
+    width: .9rem;
+    height: .5rem;
+    text-align: center;
+    line-height: .5rem;
+    color: #63c866;
+    border: 1px solid #63c866;
+    border-radius: .25rem;
+    right: 3%;
+    top: 25%;
+    font-weight: normal;
+    font-size: .24rem; }
+  section h1 {
+    margin-left: 1.7rem;
+    padding-top: .5rem;
+    font-size: .28rem; }
+  section ol {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: .5rem; }
+    section ol li {
+      width: 25%;
+      float: left;
+      font-size: .25rem;
+      color: #333;
+      text-align: center;
+      line-height: .4rem;
+      border-right: 1px solid #ccc; }
+      section ol li:last-child {
+        border: none; }
+      section ol li .blue {
+        color: #46b5f0; }
+      section ol li img {
+        width: .954rem;
+        height: .185rem; }
+      section ol li small {
+        font-size: .24rem;
+        color: #686868;
+        display: block; }
+
+/*# sourceMappingURL=style.css.map */
